@@ -119,7 +119,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <a href="{{ route('students.edit', $student->id) }}" class="btn text-primary btn-sm">
+                                {{-- <a href="{{ route('students.edit', $student->id) }}" class="btn text-primary btn-sm">
                                     <i class="fa-solid fa-pen-to-square"></i>
                                 </a>
                                 <form action="{{ route('students.destroy', $student->id) }}" method="POST"
@@ -130,7 +130,7 @@
                                         onclick="return confirm('Are you sure you want to delete ');">
                                         <i class="fa-solid fa-trash-can"></i>
                                     </button>
-                                </form>
+                                </form> --}}
                             </td>
 
                         </tr>
